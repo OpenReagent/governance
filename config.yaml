@@ -1,0 +1,18 @@
+teams:
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - jwagantall
+      - thelinuxfoundation
+  - name: openreagent-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - superkimchi
+      - jisupark
+repositories:
+  - name: governance
+    teams:
+      lf-staff: maintain
+    visibility: public
