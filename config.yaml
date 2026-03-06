@@ -7,12 +7,16 @@ teams:
       - thelinuxfoundation
   - name: openreagent-maintainers
     maintainers:
-      - ryjones
-    members:
       - superkimchi
+    members:
       - jisupark
 repositories:
   - name: governance
     teams:
       lf-staff: maintain
+    visibility: public
+  - name: openreagent
+    teams:
+      lf-staff: maintain
+      openreagent-maintainers: maintain
     visibility: public
