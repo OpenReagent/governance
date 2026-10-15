@@ -6,18 +6,8 @@ teams:
       - jwagantall
       - SeanBohan
       - thelinuxfoundation
-  - name: openreagent-maintainers
-    maintainers:
-      - superkimchi
-    members:
-      - JisuPark
 repositories:
   - name: governance
     teams:
       lf-staff: maintain
-    visibility: public
-  - name: openreagent
-    teams:
-      lf-staff: maintain
-      openreagent-maintainers: maintain
     visibility: public
